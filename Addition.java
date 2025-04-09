@@ -1,9 +1,11 @@
 public class Addition {
     public static void main(String[] args) {
-        int a, b, result;
+        int a, b, result1, result2;
         a = 10;
         b = 5;
-        result = a + b;
+        result1 = a + b;
+        result2 = a - b;
         System.out.println("The Sum Of Two Numbers is :" + result);
+        System.out.println("The Sub Of Two Numbers is :" + result);
     }
 }
